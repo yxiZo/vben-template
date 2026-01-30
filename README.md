@@ -1,16 +1,5 @@
-<div align="center">
-  <a href="https://github.com/vbenjs/vue-vben-admin">
-    <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp">
-  </a>
-  <br>
-  <br>
-
-[![license](https://img.shields.io/github/license/vbenjs/vue-vben-admin.svg)](LICENSE)
-
-  <h1>Vben Admin 5.0 精简模板</h1>
+<h1>Vben Admin 5.0 精简模板</h1>
 </div>
-
-**中文** | [English](./README.en.md)
 
 ## 简介
 
