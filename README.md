@@ -29,9 +29,6 @@ Vue Vben Admin 是一个免费开源的中后台模板，使用最新的 `vue3`�
 #### 4. GitHub 配置精简
 - ❌ 删除 `.github` 文件夹 - GitHub Actions 工作流、Issue 模板等
 
-#### 5. 部署脚本精简
-- ❌ 删除 `scripts/deploy` 文件夹 - Docker 部署脚本
-
 ## 项目特点
 
 - **单一 UI 框架**：仅保留 Ant Design Vue 版本，减少选择困难
@@ -102,42 +99,6 @@ pnpm format
 详细的精简指南请参考 [官方文档](https://doc.vben.pro/guide/introduction/thin.html)。
 
 
-## 项目结构
-
-```
-vben-template
-├── apps/
-│   ├── web-antd/          # Ant Design Vue 主应用
-│   └── backend-mock/      # Mock 服务
-├── packages/              # 共享包
-│   ├── effects/           # 业务逻辑
-│   ├── locales/           # 国际化
-│   └── ...                # 其他共享包
-├── internal/              # 内部工具
-├── scripts/               # 构建脚本
-└── package.json           # 项目配置
-
-```
-
-## 如何贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## Git 提交规范
-
-参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范：
-
-- `feat` - 添加新功能
-- `fix` - 修复问题/BUG
-- `docs` - 文档/注释
-- `style` - 代码风格
-- `refactor` - 重构
-- `perf` - 优化/性能提升
-- `test` - 测试相关
-- `chore` - 依赖更新/配置修改
-- `ci` - 持续集成
-- `types` - 类型定义文件更改
-
 ## 项目更新说明
 
 ### 本项目定位
@@ -163,9 +124,6 @@ vben-template
 - [更新日志](https://github.com/vbenjs/vue-vben-admin/releases)
 - [GitHub Discussions](https://github.com/vbenjs/vue-vben-admin/discussions)
 
-## 许可证
-
-[MIT © Vben-2020](./LICENSE)
 
 ## 致谢
 
